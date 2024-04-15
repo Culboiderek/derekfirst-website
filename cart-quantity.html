@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>cart quantity</title>
+</head>
+<body>
+<button onclick="
+ console.log(`cart quantity:${cartquantity}`);
+  "> show Quantity </button>  
+
+
+<button onclick="cartquantity = cartquantity+1;
+console.log(`cart quantity:${cartquantity}`);
+">Add to Cart</button>
+
+<button onclick="cartquantity = cartquantity +2 ;
+console.log (`cart quantity:${cartquantity}`);
+">+2</button>
+
+<button onclick="cartquantity=cartquantity+3;
+console.log(`cart quantity:${cartquantity}`);
+">+3</button>
+
+<button onclick="cartquantity=0;
+console.log('cart was Reset');
+console.log(`cart quantity:${cartquantity}`);
+">Reset Cart</button>
+
+<script>
+let cartquantity=0;
+//cartquantity-use back ticks to creaat templet sting to display
+//we can use a variable wherever we use 
+</script>
+
+</body>
+</html>
